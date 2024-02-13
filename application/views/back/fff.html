@@ -1,0 +1,29 @@
+<script type="text/javascript">
+  $(".togglePassword").click(function (e) {
+e.preventDefault();
+var type = $(this).parent().parent().find(".password").attr("type");
+console.log(type);
+if(type == "password"){
+    $(this).removeClass("fa-eye-slash");
+    $(this).addClass("fa-eye");
+    $(this).parent().parent().find(".password").attr("type","text");
+}else if(type == "text"){
+    $(this).removeClass("fa-eye");
+    $(this).addClass("fa-eye-slash");
+    $(this).parent().parent().find(".password").attr("type","password");
+}});
+</script>
+
+
+<div class="mb-3">
+    <label class="form-label">Password</label>
+    <div class="input-group mb-3">
+        <input class="form-control password" id="password" class="block mt-1 w-full" type="password" name="password" required />
+        <span class="input-group-text">
+            <i class="far fa-eye-slash" id="togglePassword"
+            style="cursor: pointer"></i>
+        </span>
+    </div>
+</div>
+
+

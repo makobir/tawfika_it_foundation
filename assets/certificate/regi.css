@@ -1,0 +1,16 @@
+/* Container holding the image and the text */
+
+.name{
+  font-family: Senilita;
+}
+
+@font-face {
+  font-family: CanterburyRegular-MVqn;
+  src: url(fontindex.ttf);
+}
+
+@font-face {
+  font-family: Senilita;
+  src: url(Senilita.otf);
+}
+

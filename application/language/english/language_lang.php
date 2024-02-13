@@ -1,0 +1,23 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['title'] = "Smart Application";
+$lang['notice'] = "Notice";
+$lang['blog'] = "Blog's";
+$lang['find_more_about'] = "Blog's";
+$lang['read_more'] = "Read More";
+$lang['all_blog'] = "All Blogs";
+$lang['present_committee'] = "Present Committee";
+$lang['view_profile'] = "View Profile";
+$lang['updated'] = "Update at : ";
+$lang['contact'] = "Contact";
+$lang['event'] = "Events";
+$lang['registration_now'] = "Registration Now";
+$lang['founder'] = "Founder";
+$lang['founder_speach'] = "Founder Speach";
+$lang['chairman_speach'] = "Chairman Speach";
+$lang['secretary_speach'] = "Sectretary Speach";
+$lang['headmaster_speach'] = "Headmaster Speach";
+$lang['cheif_advisor_speach'] = "Advisor Speach";
+$lang['more_about'] = "Find Out More About ";
+$lang['about_us'] = "About Us ";
+$lang['press_release'] = "Press Release ";
